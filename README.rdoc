@@ -1,28 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails micro project to test authentication from scratch by hand.
+This project is based on this simple tutorial:
 
-Things you may want to cover:
+http://www.sitepoint.com/rails-userpassword-authentication-from-scratch-part-i/
 
-* Ruby version
+All forms, labels, inputs and submit text are in Portuguese-PT
 
-* System dependencies
+General Info:
 
-* Configuration
+Ruby version: 2.1.1
 
-* Database creation
+Rails version: 4.1.1
 
-* Database initialization
+System dependencies: see gem file
 
-* How to run the test suite
+Database: POSTGRESQL
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
