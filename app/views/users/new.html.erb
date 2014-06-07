@@ -1,0 +1,16 @@
+
+<div class = "sign_form">
+  <h1>Novo Utilizador</h1>
+  <%= form_for @user do |f| %>
+      <%= f.label "Nome de utilizador:" %><br>
+      <%= f.text_field :username %><br><br>
+      <%= f.label "Correio electrónico:" %><br>
+      <%= f.text_field :email %><br><br>
+      <%= f.label "Palavra passe:" %><br>
+      <%= f.password_field :password %><br><br>
+      <%= f.label "Confirmar palavra passe:" %><br>
+      <%= f.password_field :password_confirmation %><br><br>
+      <%= f.button "Criar conta" %>
+  <% end %>
+</div>
+

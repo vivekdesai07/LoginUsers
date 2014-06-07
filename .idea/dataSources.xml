@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2731166366">
+    <data-source source="LOCAL" name="Rails LoginUsers: development" uuid="fda821cc-5db2-4510-8931-833756974907">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/loginuser</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfd8df9adf9adfde</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails LoginUsers: test" uuid="fbd631b3-02d5-4516-ad42-b42a895d403c">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/LoginUsers_test</jdbc-url>
+      <user-password>dfd8df9adf9adfde</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails LoginUsers: production" uuid="88b24722-cf99-49c1-9ba9-ae032d115e9e">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/LoginUsers_production</jdbc-url>
+      <user-name>LoginUsers</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe6dfe5dfeddfe3dfe4dfffdff9dfefdff8dff9dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails LoginUsers: default" uuid="262c533f-1548-4ee7-afca-13ff0380893a">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/loginuser</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfd8df9adf9adfde</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

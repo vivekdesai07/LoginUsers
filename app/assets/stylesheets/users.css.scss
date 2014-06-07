@@ -1,0 +1,57 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Sass variable for linear gradient*/
+$linear_color: whitesmoke, ghostwhite, slategrey;
+
+.sign_form {
+  margin: 100px auto;
+  width: 350px;
+  padding: 35px;
+  font-size: 16px;
+  font-family: "Anonymous Pro", "Inconsolata", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+  background: linear-gradient($linear_color);
+  box-shadow: inset 5px 5px 10px black;
+  border-radius: 15px;
+  align-self: center;
+  -webkit-animation: form_anim 1s;
+  -moz-animation: form_anim 1s;
+  -o-animation: form_anim 1s;
+  animation: form_anim 1s;
+}
+
+.sign_form h1, h2, h3, h4, input {
+  text-shadow: 2px 2px 4px slategrey;
+  width: 100%;
+  text-align: center;
+}
+
+.sign_form button {
+  width: 100%;
+  height: 40px;
+  background: linear-gradient($linear_color);
+  box-shadow: 2px 4px 4px black;
+}
+
+/* ANIMATIONS */
+
+@-webkit-keyframes form_anim {
+  from {margin: -450px auto}
+  to {margin: 100px auto;}
+}
+
+@-moz-keyframes form_anim {
+  from {margin: -450px auto}
+  to {margin: 100px auto;}
+}
+
+@-o-keyframes form_anim {
+  from {margin: -4500px auto}
+  to {margin: 100px auto;}
+}
+
+@keyframes form_anim {
+  from {margin: -450px auto}
+  to {margin: 100px auto;}
+}
