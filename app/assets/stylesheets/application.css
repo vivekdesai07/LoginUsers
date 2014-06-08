@@ -55,3 +55,21 @@ body {
     90% {opacity: 1;}
     100% {opacity: 0;}
 }
+
+@-o-keyframes flash_anim {
+    0% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-moz-keyframes flash_anim {
+    0% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes flash_anim {
+    0% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}

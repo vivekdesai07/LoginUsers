@@ -16,11 +16,13 @@
   <% end %>
 
   <% if @user.errors.any? %>
-      <ul class="Signup_Errors">
-        <% @user.errors.full_messages.each do |e| %>
-            <li><%= e %></li>
-        <% end %>
-      </ul>
+      <div class="signup_errors">
+          <ul>
+            <% @user.errors.full_messages.each do |e| %>
+                <li><%= e %></li>
+            <% end %>
+          </ul>
+      </div>
   <% end %>
 
 </div>

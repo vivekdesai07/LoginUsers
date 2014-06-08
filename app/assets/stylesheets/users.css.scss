@@ -46,9 +46,26 @@ $linear_color: whitesmoke, ghostwhite, slategrey;
   border-radius: 3px;
 }
 
+.signup_errors {
+  position: absolute;
+  bottom: 10px;
+  right: -300px;
+  width: 250px;
+  padding: 10px;
+  font-size: 11px;
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 10px;
+  color: whitesmoke;
+  -webkit-animation: errors_anim 10s;
+  -moz-animation: errors_anim 10s;
+  -o-animation: errors_anim 10s;
+  animation: errors_anim 10s;
+}
 
 /* ANIMATIONS */
 
+/* form_anim */
 @-webkit-keyframes form_anim {
   from {margin: -450px auto}
   to {margin: 100px auto;}
@@ -69,3 +86,28 @@ $linear_color: whitesmoke, ghostwhite, slategrey;
   to {margin: 100px auto;}
 }
 
+/* flash_anim */
+
+@-webkit-keyframes errors_anim {
+  0% {right: 10px;}
+  90% {right: 10px;}
+  100% {right: -300px;}
+}
+
+@-moz-keyframes errors_anim {
+  0% {right: 10px;}
+  90% {right: 10px;}
+  100% {right: -300px;}
+}
+
+@-o-keyframes errors_anim {
+  0% {right: 10px;}
+  90% {right: 10px;}
+  100% {right: -300px;}
+}
+
+@keyframes errors_anim {
+  0% {right: 10px;}
+  90% {right: 10px;}
+  100% {right: -300px;}
+}
