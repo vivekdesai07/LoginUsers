@@ -25,6 +25,7 @@ $linear_color: whitesmoke, ghostwhite, slategrey;
   text-shadow: 2px 2px 4px slategrey;
   width: 100%;
   text-align: center;
+  border-color: none;
 }
 
 .sign_form button {
@@ -33,6 +34,18 @@ $linear_color: whitesmoke, ghostwhite, slategrey;
   background: linear-gradient($linear_color);
   box-shadow: 2px 4px 4px black;
 }
+
+/* FORM FIELDS WITH ERRORS */
+
+.field_with_errors {
+  display: inline;
+}
+
+.field_with_errors input,  {
+  border-color: red;
+  border-radius: 3px;
+}
+
 
 /* ANIMATIONS */
 
@@ -55,3 +68,4 @@ $linear_color: whitesmoke, ghostwhite, slategrey;
   from {margin: -450px auto}
   to {margin: 100px auto;}
 }
+

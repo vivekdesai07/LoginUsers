@@ -5,7 +5,6 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/loginuser</jdbc-url>
-      <user-name>postgres</user-name>
       <user-password>dfd8df9adf9adfde</user-password>
       <libraries />
     </data-source>
@@ -28,7 +27,6 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/loginuser</jdbc-url>
-      <user-name>postgres</user-name>
       <user-password>dfd8df9adf9adfde</user-password>
       <libraries />
     </data-source>

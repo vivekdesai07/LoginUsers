@@ -17,3 +17,41 @@
 body {
     background-color: slategrey;
 }
+
+.flash_error {
+    margin: auto;
+    width: 400px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: black;
+    text-align: center;
+    box-shadow: 2px 4px 8px black;
+    opacity: 0;
+    -webkit-animation: flash_anim 6s;
+    -o-animation: flash_anim 6s;
+    animation: flash_anim 6s;
+}
+
+.flash_notice {
+    margin: auto;
+    width: 400px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    box-shadow: 2px 4px 8px black;
+    opacity: 0;
+    -webkit-animation: flash_anim 6s;
+    -o-animation: flash_anim 6s;
+    animation: flash_anim 6s;
+}
+
+/* ANIMATIONS */
+
+@-webkit-keyframes flash_anim {
+    0% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
