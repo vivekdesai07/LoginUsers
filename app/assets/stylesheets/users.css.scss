@@ -14,11 +14,12 @@ $linear_color: whitesmoke, ghostwhite, slategrey;
   background: linear-gradient($linear_color);
   box-shadow: inset 5px 5px 10px black;
   border-radius: 15px;
-  align-self: center;
   -webkit-animation: form_anim 1s;
   -moz-animation: form_anim 1s;
   -o-animation: form_anim 1s;
   animation: form_anim 1s;
+
+  /* -webkit-transform: rotate(-180deg); */
 }
 
 .sign_form h1, h2, h3, h4, input {
@@ -26,6 +27,18 @@ $linear_color: whitesmoke, ghostwhite, slategrey;
   width: 100%;
   text-align: center;
   border-color: none;
+}
+
+.sign_form h1 {
+  color: slategrey;
+}
+
+.sign_form a {
+  float: right;
+  text-decoration: none;
+  color: darkslategrey;
+  text-shadow: 1px 1px 2px ghostwhite;
+  font-size: 13px;
 }
 
 .sign_form button {
@@ -48,14 +61,15 @@ $linear_color: whitesmoke, ghostwhite, slategrey;
 
 .signup_errors {
   position: absolute;
-  bottom: 10px;
-  right: -300px;
-  width: 250px;
-  padding: 10px;
-  font-size: 11px;
+  margin: 0;
+  right: 0;
+  top: 150px;
+  width: 150px;
+  padding: 0 50px 0 0;
+  font-size: 13px;
   background-color: black;
-  opacity: 0.5;
-  border-radius: 10px;
+  opacity: 0;
+  border-radius: 10px 0 0 10px;
   color: whitesmoke;
   -webkit-animation: errors_anim 10s;
   -moz-animation: errors_anim 10s;
@@ -89,25 +103,25 @@ $linear_color: whitesmoke, ghostwhite, slategrey;
 /* flash_anim */
 
 @-webkit-keyframes errors_anim {
-  0% {right: 10px;}
-  90% {right: 10px;}
-  100% {right: -300px;}
+  0% {right: 0; opacity: 0.5}
+  90% {right: 0; opacity: 0.5}
+  100% {right: -300px; opacity: 0}
 }
 
 @-moz-keyframes errors_anim {
-  0% {right: 10px;}
-  90% {right: 10px;}
-  100% {right: -300px;}
+  0% {right: 0; opacity: 0.5}
+  90% {right: 0; opacity: 0.5}
+  100% {right: -300px; opacity: 0}
 }
 
 @-o-keyframes errors_anim {
-  0% {right: 10px;}
-  90% {right: 10px;}
-  100% {right: -300px;}
+  0% {right: 0; opacity: 0.5}
+  90% {right: 0; opacity: 0.5}
+  100% {right: -300px; opacity: 0}
 }
 
 @keyframes errors_anim {
-  0% {right: 10px;}
-  90% {right: 10px;}
-  100% {right: -300px;}
+  0% {right: 0; opacity: 0.5}
+  90% {right: 0; opacity: 0.5}
+  100% {right: -300px; opacity: 0}
 }

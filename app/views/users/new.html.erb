@@ -12,17 +12,18 @@
       <%= f.password_field :password %><br><br>
       <%= f.label "Confirmar palavra passe:" %><br>
       <%= f.password_field :password_confirmation %><br><br>
-      <%= f.button "Criar conta" %>
+      <%= f.button "Criar conta" %><br><br>
+      <%= link_to "Já tenho conta!", sessions_login_path, title: "Entrar com a sua conta!"%>
   <% end %>
 
-  <% if @user.errors.any? %>
-      <div class="signup_errors">
+</div>
+
+<div class="signup_errors">
+    <% if @user.errors.any? %>
           <ul>
             <% @user.errors.full_messages.each do |e| %>
                 <li><%= e %></li>
             <% end %>
           </ul>
-      </div>
-  <% end %>
-
+    <% end %>
 </div>

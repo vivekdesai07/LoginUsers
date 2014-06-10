@@ -4,8 +4,7 @@
     <data-source source="LOCAL" name="Rails LoginUsers: development" uuid="fda821cc-5db2-4510-8931-833756974907">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/loginuser</jdbc-url>
-      <user-name>postgres</user-name>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/loginuser</jdbc-url>
       <user-password>dfd8df9adf9adfde</user-password>
       <libraries />
     </data-source>

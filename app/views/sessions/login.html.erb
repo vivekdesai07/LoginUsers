@@ -1,0 +1,14 @@
+<div class = "sign_form">
+
+  <h1>Entrar</h1>
+
+  <%= form_tag(action: 'login_attempt') do %>
+      <%= label_tag("Correio electrónico:") %><br>
+      <%= text_field_tag(:email_as_login) %><br><br>
+      <%= label_tag("Palavra passe: ") %><br>
+      <%= password_field_tag(:login_password) %><br><br>
+      <%= button_tag("Entrar") %><br><br>
+      <%= link_to "Criar conta!", users_new_path, title: "Criar uma conta nova."%>
+  <% end %>
+
+</div>
