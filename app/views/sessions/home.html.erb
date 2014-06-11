@@ -1,2 +1,10 @@
-<h1>Sessions#home</h1>
-<p>Find me in app/views/sessions/home.html.erb</p>
+<div class="user_menu">
+  <ul>
+    <li><%= @current_user.username %></li>
+    <li><%= link_to "Perfil", sessions_profile_path %></li>
+    <li><%= link_to "Preferências", sessions_setting_path %></li>
+    <li><%= link_to "Sair", logout_path %></li>
+  </ul>
+</div>
+
+

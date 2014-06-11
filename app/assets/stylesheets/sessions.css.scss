@@ -1,3 +1,24 @@
 // Place all the styles related to the sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.user_menu {
+  background-color: darkslateblue;
+  height: 50px;
+  opacity: 0.5;
+  margin: 0 0 20px 0;
+
+}
+
+.user_menu a {
+
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+.user_menu li {
+  float: right;
+  display: inline;
+  padding: 20px;
+
+}
